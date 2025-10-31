@@ -1,0 +1,81 @@
+body {
+background-color: bisque;
+}
+.container {
+max-width: 1200px;
+min-height: 10rem;
+margin: auto;
+background-color: white;
+padding: 1rem;
+}
+#pageheader {
+background-color: coral;
+min-height: 10rem;
+min-height: auto;
+padding: .25rem;
+}
+#logo {
+background-image: url(Logo.png);
+width: 6.25rem;
+height: 6.25;
+border: 1px solid none;
+}
+
+#pageheader .container {
+min-height: auto;
+}
+#pageheader nav {
+    text-align: center;
+}
+
+#media {
+background-color: lightblue;
+min-height: 10rem;
+padding: 1rem;
+background-image: url(heroimage.png);
+background-size: cover;
+aspect-ratio: 16/9;
+}
+
+#career {
+background-color: aqua;
+min-height: 10rem;
+padding: 1rem;
+}
+
+#pagecontent {
+background-color: lightgreen;
+min-height: 10rem;
+padding: 1rem;
+}
+
+#semester1 {
+background-color: aquamarine;
+min-height: 10rem;
+padding: 1rem;
+}
+
+#semester2 {
+background-color: lightgreen;
+min-height: 10rem;
+padding: 1rem;
+}
+
+#pagefooter {
+background-color: cornflowerblue;
+min-height: 10rem;
+padding: 1rem;
+}
+
+#subfooter {
+background-color: steelblue;
+min-height: 10rem;
+padding: 1rem;
+}
+
+audio {
+border: 5px solid steelblue;
+background-color: steelblue;
+display: block;
+margin: auto;
+}
